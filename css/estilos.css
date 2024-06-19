@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;}
+
+body{
+    background-color: rgb(169, 214, 235);
+    font-family: Outfit;}
+
+header{
+    font-size: 20px;
+    font-weight: 300;
+    width: 100%;
+    background-color: hotpink;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;}
+
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: black;
+    color: hotpink;
+    border: 1px dashed bisque;
+    text-align: center;
+    width: 160px;
+    height: 30px;
+    display: block;
+    margin: 5px auto;
+    line-height: 23px;
+    padding: 3px;}
+
+header a:hover{
+    background-color: rgb(169, 214, 235);
+    color: black;}
+
+
+main{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;}
+    
+div{ 
+    width: 30%; }
+    
+ #video1 {
+width: 40%;
+background-color: black;
+margin: 30px auto;
+display: flex;
+flex-wrap:wrap;
+justify-content: space-between;}
+        
+#video2 {       
+width: 40%;
+background-color: black;
+margin:30px auto;
+display: flex;
+flex-wrap:wrap;
+justify-content: space-between;}
+    
+img, video {
+width:100%;
+border: dashed 2px hotpink;}
+
+h3{
+width: 215px;
+height: 200px;
+margin: 30px auto;
+scale: 1.5;
+background-image: url(../imagenes/saludo.png);
+animation: saludo 900ms infinite steps(3)}
+
+@keyframes saludo {
+    from{background-position: 0px 0px;}
+    to {background-position: 0px 600px;}
+}
+
+h4{
+    color: hotpink;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center; }
+
